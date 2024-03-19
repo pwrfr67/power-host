@@ -9,21 +9,12 @@
     
     <h1>My Videos</h1>
     <video controls>
-        
         <source src="K84byh.mp4" type="video/mp4">
         <source src="n4p8am (3).mp4" type="video/mp4">
         <source src="sasl1y_2.mp4" type="video/mp4">
         <source src="back in the lab fr.mp4" type="video/mp4">
-      <!-- app info -->
-      <meta property="og:site_name" content="power">
-      <meta property="og:url" content="https://domain.com">
-      <meta property="og:title" content="Power Hosting">
-      <meta property="og:description" content="Alternative To Streamable">
-      <meta property="og:type" content="website">
-      <meta name="og:image" itemprop="image" content="path/to/image.png">
         <!-- Add more video sources if needed -->
     </video>
-  
 
     <!-- Add more videos here -->
 
@@ -35,6 +26,12 @@
     <!-- Replace "file:///path/to/your/video1.mp4" with the actual path to your video -->
 
     <!-- Add more shareable links for other videos -->
+
+    <!-- Upload button -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
 
 </body>
 </html>
